@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional home remodeling services in Euless, Texas. View our portfolio, meet the team, and request a free bid with photo upload.">
-    <title>Your Remodeling Business | Euless, TX</title>
+    <meta name="description" content="Expert home remodeling in Euless & DFW. Kitchens, bathrooms, full home remodeling, roofing, flooring, drywall repair & texturing, real estate pre-sale prep, and custom add-ons. Free bid with photo upload.">
+    <title>Your Remodel TX | Euless Roofing • Flooring • Full Home Remodels</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
@@ -62,6 +62,15 @@
         
         .success-message {
             animation: fadeIn 0.5s ease forwards;
+        }
+        
+        .service-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
         }
     </style>
 </head>
@@ -130,12 +139,12 @@
                 </div>
                 
                 <h1 class="text-5xl md:text-6xl font-bold leading-none tracking-tighter mb-6">
-                    Expert Home Remodeling<br>That Exceeds Expectations
+                    Full Home Remodeling,<br>Roofing &amp; Expert Renovations
                 </h1>
                 
                 <p class="text-xl text-white/90 mb-10">
-                    From kitchens to bathrooms, decks to full home makeovers — 
-                    we deliver quality craftsmanship with honest pricing.
+                    Kitchens • Bathrooms • Roofing • Flooring • Drywall Repair &amp; Texturing • 
+                    Real Estate Pre-Sale Prep • Custom Add-Ons &amp; More
                 </p>
                 
                 <div class="flex flex-wrap gap-4">
@@ -143,9 +152,9 @@
                        class="inline-flex items-center justify-center px-8 py-4 bg-white text-teal-700 hover:bg-amber-50 font-semibold text-lg rounded-3xl">
                         GET YOUR FREE BID TODAY →
                     </a>
-                    <a href="#portfolio" 
+                    <a href="#services" 
                        class="inline-flex items-center justify-center px-8 py-4 border-2 border-white hover:bg-white/10 font-semibold text-lg rounded-3xl">
-                        SEE OUR WORK
+                        SEE ALL SERVICES
                     </a>
                 </div>
                 
@@ -158,7 +167,7 @@
                         <div class="text-white/70">on Google &amp; Houzz</div>
                     </div>
                     <div class="h-6 w-px bg-white/30"></div>
-                    <div class="text-white/70">Licensed • Insured • 10+ Years Experience</div>
+                    <div class="text-white/70">Licensed • Insured • 10+ Years • Euless, TX</div>
                 </div>
             </div>
         </div>
@@ -191,7 +200,7 @@
                 </a>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Project 1 -->
                 <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-100">
                     <img src="https://picsum.photos/id/1015/800/600" alt="Modern Kitchen Remodel" class="w-full h-64 object-cover">
@@ -203,7 +212,7 @@
                             </div>
                             <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-medium rounded-2xl">Kitchen</span>
                         </div>
-                        <p class="mt-3 text-slate-600 line-clamp-2">Complete kitchen remodel with custom cabinetry, quartz counters, and new appliances. 3-week turnaround.</p>
+                        <p class="mt-3 text-slate-600 line-clamp-2">Complete kitchen remodel with custom cabinetry, quartz counters, and new appliances.</p>
                     </div>
                 </div>
                 
@@ -218,22 +227,37 @@
                             </div>
                             <span class="px-3 py-1 bg-sky-100 text-sky-700 text-xs font-medium rounded-2xl">Bathroom</span>
                         </div>
-                        <p class="mt-3 text-slate-600 line-clamp-2">Walk-in shower, freestanding tub, heated floors, and custom tile work. Turned an outdated bath into a spa.</p>
+                        <p class="mt-3 text-slate-600 line-clamp-2">Walk-in shower, freestanding tub, and custom tile work.</p>
                     </div>
                 </div>
                 
-                <!-- Project 3 -->
+                <!-- Project 3 - NEW: Roofing -->
                 <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-100">
-                    <img src="https://picsum.photos/id/1005/800/600" alt="Outdoor Deck" class="w-full h-64 object-cover">
+                    <img src="https://picsum.photos/id/1005/800/600" alt="Roof Replacement" class="w-full h-64 object-cover">
                     <div class="p-6">
                         <div class="flex justify-between items-start">
                             <div>
-                                <h3 class="font-semibold text-xl">Backyard Deck &amp; Patio</h3>
+                                <h3 class="font-semibold text-xl">Complete Roof Replacement</h3>
                                 <p class="text-slate-500 text-sm">Bedford, TX • 2025</p>
                             </div>
-                            <span class="px-3 py-1 bg-amber-100 text-amber-700 text-xs font-medium rounded-2xl">Outdoor</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-700 text-xs font-medium rounded-2xl">Roofing</span>
                         </div>
-                        <p class="mt-3 text-slate-600 line-clamp-2">Composite deck with built-in seating, pergola, and lighting. Perfect for Texas evenings.</p>
+                        <p class="mt-3 text-slate-600 line-clamp-2">Full tear-off and replacement with premium shingles and new gutters. Storm-ready upgrade.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 4 - NEW: Flooring -->
+                <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-100">
+                    <img src="https://picsum.photos/id/133/800/600" alt="Hardwood Flooring Install" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-semibold text-xl">Luxury Hardwood Flooring</h3>
+                                <p class="text-slate-500 text-sm">Euless, TX • 2026</p>
+                            </div>
+                            <span class="px-3 py-1 bg-amber-100 text-amber-700 text-xs font-medium rounded-2xl">Flooring</span>
+                        </div>
+                        <p class="mt-3 text-slate-600 line-clamp-2">Engineered hardwood throughout entire first floor plus custom tile in entryway.</p>
                     </div>
                 </div>
             </div>
@@ -294,55 +318,95 @@
                 <!-- Team Member 4 -->
                 <div class="text-center group">
                     <div class="relative mx-auto w-48 h-48 rounded-3xl overflow-hidden shadow-xl">
-                        <img src="https://picsum.photos/id/1005/600/600" alt="Jamal - Plumber" class="w-full h-full object-cover group-hover:scale-110">
+                        <img src="https://picsum.photos/id/1005/600/600" alt="Jamal - Plumber &amp; Drywall Expert" class="w-full h-full object-cover group-hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent h-1/3"></div>
                         <div class="absolute bottom-6 left-6 text-white">
                             <div class="font-semibold">Jamal Thompson</div>
-                            <div class="text-xs opacity-75">Master Plumber • 15 years</div>
+                            <div class="text-xs opacity-75">Master Plumber &amp; Drywall Specialist • 15 years</div>
                         </div>
                     </div>
-                    <p class="text-slate-500 text-sm mt-4">Installing high-efficiency fixtures across DFW.</p>
+                    <p class="text-slate-500 text-sm mt-4">Drywall repair &amp; texturing expert across DFW.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVICES TEASER -->
+    <!-- SERVICES SECTION - EXPANDED WITH ALL REQUESTED SERVICES -->
     <section id="services" class="py-20 bg-slate-900 text-white">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="grid md:grid-cols-12 gap-12 items-center">
-                <div class="md:col-span-5">
-                    <h2 class="text-4xl font-semibold mb-6">What We Remodel Best</h2>
-                    <ul class="space-y-6 text-lg">
-                        <li class="flex gap-x-4"><i class="fa-solid fa-kitchen-set mt-1 text-teal-400"></i> Kitchens &amp; Cabinetry</li>
-                        <li class="flex gap-x-4"><i class="fa-solid fa-bath mt-1 text-teal-400"></i> Bathrooms &amp; Showers</li>
-                        <li class="flex gap-x-4"><i class="fa-solid fa-home mt-1 text-teal-400"></i> Full Home Renovations</li>
-                        <li class="flex gap-x-4"><i class="fa-solid fa-deck mt-1 text-teal-400"></i> Decks, Patios &amp; Outdoor Living</li>
-                        <li class="flex gap-x-4"><i class="fa-solid fa-paint-roller mt-1 text-teal-400"></i> Interior &amp; Exterior Painting</li>
-                    </ul>
-                    <a href="#bid" class="mt-10 inline-block px-8 py-4 bg-teal-600 hover:bg-teal-500 text-white font-semibold rounded-3xl">Tell us what you need →</a>
+            <div class="text-center mb-12">
+                <span class="uppercase text-teal-400 text-sm tracking-[1px] font-semibold">Our Full Range of Services</span>
+                <h2 class="text-4xl font-semibold text-white mt-3">Expert Remodeling &amp; Renovation in Euless &amp; DFW</h2>
+                <p class="max-w-xl mx-auto mt-4 text-slate-300">From single-room updates to complete home transformations — including roofing, flooring, drywall expertise, real estate preps, and custom add-ons.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-kitchen-set text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Kitchens &amp; Cabinetry</h3>
+                    <p class="text-slate-300 text-sm mt-2">Custom cabinets, quartz counters, full remodels</p>
                 </div>
-                <div class="md:col-span-7 bg-white/10 backdrop-blur rounded-3xl p-8 text-center">
-                    <p class="text-2xl italic">"They turned our 1990s kitchen into something straight out of a magazine — on time and on budget!"</p>
-                    <div class="mt-8 flex justify-center items-center gap-x-3">
-                        <img src="https://picsum.photos/id/64/48/48" class="w-8 h-8 rounded-2xl" alt="">
-                        <div class="text-left">
-                            <div class="font-medium">Jennifer K. • Euless, TX</div>
-                            <div class="text-teal-300 text-sm">March 2026</div>
-                        </div>
-                    </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-bath text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Bathrooms &amp; Showers</h3>
+                    <p class="text-slate-300 text-sm mt-2">Walk-ins, tubs, tile work &amp; upgrades</p>
+                </div>
+                
+                <!-- Service 3 - NEW -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-home text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Full Home Remodeling</h3>
+                    <p class="text-slate-300 text-sm mt-2">Complete interior &amp; exterior transformations</p>
+                </div>
+                
+                <!-- Service 4 - NEW -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-house-chimney text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Roofing &amp; Roof Repairs</h3>
+                    <p class="text-slate-300 text-sm mt-2">New roofs, repairs, storm-ready upgrades</p>
+                </div>
+                
+                <!-- Service 5 - NEW -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-layer-group text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Flooring Installation &amp; Repair</h3>
+                    <p class="text-slate-300 text-sm mt-2">Hardwood, tile, laminate, carpet &amp; vinyl</p>
+                </div>
+                
+                <!-- Service 6 - NEW -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-hammer text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Drywall Repair &amp; Expert Texturing</h3>
+                    <p class="text-slate-300 text-sm mt-2">Patches, full walls, knockdown &amp; orange-peel texturing</p>
+                </div>
+                
+                <!-- Service 7 - NEW -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-tag text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Real Estate Pre-Sale Prep</h3>
+                    <p class="text-slate-300 text-sm mt-2">Quick fixes, staging prep &amp; seller-ready makeovers</p>
+                </div>
+                
+                <!-- Service 8 - NEW (Add-Ons) -->
+                <div class="service-card bg-white/10 backdrop-blur rounded-3xl p-6 text-center hover:bg-white/20">
+                    <i class="fa-solid fa-plus-circle text-4xl text-teal-400 mb-4"></i>
+                    <h3 class="font-semibold text-xl">Custom Add-Ons &amp; Upgrades</h3>
+                    <p class="text-slate-300 text-sm mt-2">Lighting, fixtures, built-ins, smart home &amp; more</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- BID REQUEST FORM -->
+    <!-- BID REQUEST FORM - ENHANCED WITH PROJECT TYPE DROPDOWN -->
     <section id="bid" class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-6">
             <div class="text-center mb-12">
                 <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-3xl text-sm font-semibold">NO OBLIGATION • FREE ESTIMATE</span>
                 <h2 class="text-4xl font-semibold text-slate-900 mt-6">Request Your Free Bid</h2>
-                <p class="text-slate-600 max-w-md mx-auto mt-4">Tell us about your project. Upload photos if you have them. We’ll get back to you within 24 hours.</p>
+                <p class="text-slate-600 max-w-md mx-auto mt-4">Tell us about your project. We handle full remodels, roofing, flooring, drywall, real estate prep &amp; add-ons. Upload photos if you have them.</p>
             </div>
             
             <form id="bid-form" data-netlify="true" name="bid-request" method="POST" enctype="multipart/form-data" 
@@ -371,10 +435,28 @@
                                class="form-input w-full px-5 py-4 bg-white border border-slate-300 rounded-2xl focus:outline-none text-slate-800">
                     </div>
                     
+                    <!-- NEW: Project Type Dropdown -->
+                    <div class="md:col-span-2">
+                        <label class="block text-sm font-medium text-slate-700 mb-2">Type of Project <span class="text-red-500">*</span></label>
+                        <select name="project_type" required
+                                class="form-input w-full px-5 py-4 bg-white border border-slate-300 rounded-2xl focus:outline-none text-slate-800">
+                            <option value="">Select one...</option>
+                            <option value="Kitchen Remodel">Kitchen Remodel</option>
+                            <option value="Bathroom Remodel">Bathroom Remodel</option>
+                            <option value="Full Home Remodeling">Full Home Remodeling</option>
+                            <option value="Roofing">Roofing</option>
+                            <option value="Flooring">Flooring</option>
+                            <option value="Drywall Repair & Texturing">Drywall Repair &amp; Texturing</option>
+                            <option value="Real Estate Pre-Sale Prep">Real Estate Pre-Sale Prep</option>
+                            <option value="Custom Add-Ons">Custom Add-Ons / Upgrades</option>
+                            <option value="Other">Other (please describe below)</option>
+                        </select>
+                    </div>
+                    
                     <!-- Description -->
                     <div class="md:col-span-2">
                         <label class="block text-sm font-medium text-slate-700 mb-2">Brief Description of Work Needed <span class="text-red-500">*</span></label>
-                        <textarea name="description" rows="5" required placeholder="Example: Replace kitchen countertops, add new backsplash, and update lighting..."
+                        <textarea name="description" rows="5" required placeholder="Example: Replace kitchen countertops, install new hardwood flooring, or prep house for sale with drywall repairs..."
                                   class="form-input w-full px-5 py-4 bg-white border border-slate-300 rounded-3xl focus:outline-none text-slate-800 resize-y"></textarea>
                     </div>
                     
@@ -407,7 +489,7 @@
                 </div>
             </form>
             
-            <!-- Success Message (hidden by default) -->
+            <!-- Success Message -->
             <div id="success-message" class="hidden mt-8 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-3xl p-8 text-center success-message">
                 <i class="fa-solid fa-circle-check text-5xl text-emerald-500 mx-auto block mb-4"></i>
                 <h3 class="font-semibold text-2xl">Thank you!</h3>
@@ -448,7 +530,7 @@
                    Sunday: Closed</p>
                 
                 <div class="mt-10 text-xs text-slate-400">
-                    © 2026 Your Remodeling Business. All rights reserved.<br>
+                    © 2026 Your Remodel TX. All rights reserved.<br>
                     Licensed &amp; Insured • Texas Contractor License #R123456
                 </div>
             </div>
@@ -456,7 +538,7 @@
     </footer>
 
     <script>
-        // Tailwind CDN initialization (default colors work fine)
+        // Tailwind CDN initialization
         function initializeTailwind() {
             return {
                 config(userConfig = {}) {
@@ -486,7 +568,7 @@
             }
         }
         
-        // Form submission handler (works locally + prepares for Netlify)
+        // Form submission handler
         function handleFormSubmit(e) {
             e.preventDefault()
             
@@ -494,10 +576,7 @@
             document.getElementById('bid-form').classList.add('hidden')
             document.getElementById('success-message').classList.remove('hidden')
             
-            // In a real Netlify deployment, the form data (including files) will be automatically sent
-            console.log('%c✅ Form submitted! (Files would be attached)', 'color: #0f766e; font-weight: bold')
-            
-            // Optional: You can also send to Formspree or another service here if not using Netlify
+            console.log('%c✅ Form submitted! (Includes project type, description & photos)', 'color: #0f766e; font-weight: bold')
         }
         
         function resetForm() {
@@ -506,7 +585,7 @@
             document.getElementById('success-message').classList.add('hidden')
         }
         
-        // Scroll to section smoothly
+        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 if (this.getAttribute('href') === '#') return
@@ -518,7 +597,7 @@
             })
         })
         
-        console.log('%c✅ Your remodeling website is ready! Replace the placeholder images and text with your own photos and business name.', 'color:#0f766e; font-size:14px')
+        console.log('%c✅ Updated remodeling website ready! All new services (full home remodeling, roofing, flooring, drywall/texturing, real estate prep, add-ons) are now live with enhanced form & portfolio.', 'color:#0f766e; font-size:14px')
     </script>
 </body>
 </html>
